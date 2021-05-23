@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="prjWinRemax.exe" version="1.0.0.0" publicKeyToken="4a7fc8b60c76022c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="prjWinRemax" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="prjWinRemax.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="prjWinRemax.exe" size="1386936">
+      <assemblyIdentity name="prjWinRemax" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>faQ1c1MAQieAsrhFi3tbUGbcVZGg6SBaj5cXBkikhLw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="prjWinRemax.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=APPLE-PC\Apple" issuerKeyHash="ce2d9425f5247bb5535f4d989e468c0a307a5e57" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ogiH72JVRraYIJQINBqXDL/TKBI+EtS1JUsyZ6A48uQ=</DigestValue></Reference></SignedInfo><SignatureValue>L/B3kIWpiSIC/vYRY5onoYuqvGO6PfL+PgXWW07gf0hKLvH+90z1dGxRF/Xi3Xu4hhRhE3+RV5TPhjG9H8WHe9pFEiqOdhKXCdVxNen6kz1QAzrEEtSrZ2ppsGu1cque61ig47XsrM/x6qTdHIcHmjqOu9221LGVeZsUYtkbbkU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sOed6Anuy0NNRLdvYpALLq6x0tKFPvjjX7Oxu0UyjuAeF/oi90yQvtCsF4hIB/WEk2ku371XM8P+JXSaVpnO73qRSXjRma5akvN3DcwyQkTOOzQgU9jJTkkfhP2wrmGV9ggpyU2FaHt9wGOanlnAVXPK2l9PKwiuMa42FDDUKs0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e4f238a067324b25b5d4123e1228d3bf0c971a3408942098b6465562ef8708a2" Description="" Url=""><as:assemblyIdentity name="prjWinRemax.exe" version="1.0.0.0" publicKeyToken="4a7fc8b60c76022c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=APPLE-PC\Apple</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dC4CSU6kyBkuzuFLFZBkEuy6Wkk+IWIAWigAyUu0/Cc=</DigestValue></Reference></SignedInfo><SignatureValue>LJm3nUZksLornMScRwX0ntnepfdHOVlNKS/Y/l+Jt035dD5//AL6LJ2Pa+jwgvG6kCYa9kQlEZzM/zUOpxwGtV057Baeqc1UELRrBUT2DkChZ+xnX9SPmGT2yQtVjV6Fn3F/FetTSCb551wUbS4P78anHh7VSVe0UPZwjMb6F6k=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sOed6Anuy0NNRLdvYpALLq6x0tKFPvjjX7Oxu0UyjuAeF/oi90yQvtCsF4hIB/WEk2ku371XM8P+JXSaVpnO73qRSXjRma5akvN3DcwyQkTOOzQgU9jJTkkfhP2wrmGV9ggpyU2FaHt9wGOanlnAVXPK2l9PKwiuMa42FDDUKs0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQcBdtTpcl+5pGzRo/Qc7MXjANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQQBQAFAATABFAC0AUABDAFwAQQBwAHAAbABlMB4XDTIwMTIxMTIwNDkzN1oXDTIxMTIxMjAyNDkzN1owJzElMCMGA1UEAx4cAEEAUABQAEwARQAtAFAAQwBcAEEAcABwAGwAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsOed6Anuy0NNRLdvYpALLq6x0tKFPvjjX7Oxu0UyjuAeF/oi90yQvtCsF4hIB/WEk2ku371XM8P+JXSaVpnO73qRSXjRma5akvN3DcwyQkTOOzQgU9jJTkkfhP2wrmGV9ggpyU2FaHt9wGOanlnAVXPK2l9PKwiuMa42FDDUKs0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAFjh49zF3Pjw71Yhh2YHOcoPh+grPjtk79UJXWRh0FUpEJSd31ZS3iRyfOa10MQ2Dfse455RtA8Poe3hXpfc1JTKYzOFo8V9etYvmxARMOkwwEZU3yMOCCvdbrlEXCfW5nmQ3bek3a8sMyKAM7xAGSTTIOWw7wF+nue3sly+w0qw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

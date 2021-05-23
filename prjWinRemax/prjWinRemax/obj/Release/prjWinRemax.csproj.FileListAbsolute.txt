@@ -1,0 +1,17 @@
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\bin\Release\prjWinRemax.exe.config
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\bin\Release\prjWinRemax.exe.manifest
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\bin\Release\prjWinRemax.application
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\bin\Release\prjWinRemax.exe
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\bin\Release\prjWinRemax.pdb
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\obj\Release\prjWinRemax.csprojAssemblyReference.cache
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\obj\Release\prjWinRemax.frmAdmin.resources
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\obj\Release\prjWinRemax.frmAgent.resources
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\obj\Release\prjWinRemax.frmMain.resources
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\obj\Release\prjWinRemax.frmUser.resources
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\obj\Release\prjWinRemax.Properties.Resources.resources
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\obj\Release\prjWinRemax.csproj.GenerateResource.cache
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\obj\Release\prjWinRemax.csproj.CoreCompileInputs.cache
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\obj\Release\prjWinRemax.exe.manifest
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\obj\Release\prjWinRemax.application
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\obj\Release\prjWinRemax.exe
+C:\Users\Apple\Desktop\prjWinRemax\prjWinRemax\obj\Release\prjWinRemax.pdb
